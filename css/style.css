@@ -171,7 +171,9 @@ img {
             rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    min-width: 1440px;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 
@@ -408,6 +410,8 @@ img {
 .customs-icon {
     flex-shrink: 0;
     fill: currentColor;
+    width: 104px;
+    height: 56px;
 
 }
 
@@ -428,6 +432,8 @@ img {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
+    
 }
 
 .footer-logo {
@@ -461,14 +467,18 @@ img {
     width: 264px;
 }
 
+.footer-container-main{
+    margin-right: 120px;
+}
+
 .footer-list {
     display: flex;
     gap: 16px;
-    margin-left: 120px;
-    margin-top: 16px;
 }
 
-.footer-icon {}
+.footer-icon {
+    fill: var(--cloud);
+}
 
 .footer-link-two {
     background-color: var(--iris, #4D5AE5);
@@ -487,7 +497,7 @@ img {
 }
 
 .footer-title {
-    margin-left: 120px;
+    margin-bottom: 16px;
     color: var(--white, #FFF);
     font-size: 16px;
     font-weight: 500;
