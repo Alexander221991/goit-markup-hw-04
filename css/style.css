@@ -412,8 +412,6 @@ img {
     margin-bottom: 72px;
 }
 
-.customs-box {}
-
 .customs-list {
     display: flex;
     gap: 24px;
@@ -431,18 +429,17 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customs-link:hover,
+.customs-link:hover ,
 .customs-link:focus {
     border-color: var(--ocean);
     color: var(--ocean);
-
 }
+
+
 
 .customs-icon {
     flex-shrink: 0;
-    fill: currentColor;
-
-
+    fill:var(--lightslate);
 }
 
 
