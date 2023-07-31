@@ -731,3 +731,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     background-color: #404bbf;
     border: none;
 }
+.modal-btn-close:hover .modal-icon,
+.modal-btn-close:focus .modal-icon{
+    fill: var(--white);
+}
